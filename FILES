@@ -1,0 +1,30 @@
+// app/layout.tsx
+import "@/src/styles/globals.css"
+
+// app/page.tsx
+import Header from "@/src/components/layout/Header"
+import Sidebar from "@/src/components/layout/Sidebar"
+import Footer from "@/src/components/layout/Footer"
+import SummaryCard from "@/src/components/dashboard/SummaryCard"
+import FoodCard from "@/src/components/dashboard/FoodCard"
+
+// app/log-makan/page.tsx
+import Header from "@/src/components/layout/Header"
+import Sidebar from "@/src/components/layout/Sidebar"
+import Footer from "@/src/components/layout/Footer"
+
+// app/profil/page.tsx
+import Header from "@/src/components/layout/Header"
+import Sidebar from "@/src/components/layout/Sidebar"
+import Footer from "@/src/components/layout/Footer"
+
+// src/components/dashboard/SummaryCard.tsx
+import type { SummaryCardProps } from "@/src/types/nutrition"
+import ProgressCircle from "@/src/components/ui/ProgressCircle"
+
+// src/components/dashboard/FoodCard.tsx
+import type { FoodCardProps } from "@/src/types/nutrition"
+import ProgressCircle from "@/src/components/ui/ProgressCircle"
+
+// src/components/ui/ProgressCircle.tsx
+import type { ProgressCircleProps } from "@/src/types/nutrition"
